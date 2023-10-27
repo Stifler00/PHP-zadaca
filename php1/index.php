@@ -9,18 +9,7 @@
 		<meta name="keywords" content="">
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="slika"></div>
-                <ul>
-                <li><a href="?menu=1">Početna</a></li>
-                <li><a href="?menu=2">O nama</a></li>
-                <li><a href="?menu=3">Kontakt</a></li>
-                <li><a href="?menu=4">Galerija</a></li>
-                <li><a href="?menu=5">Vijesti</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php include "meni.html"; ?>
         <main>
         <?php
             if (!isset($_GET['menu']) || $_GET['menu'] == 1) {include ("pocetna.html"); }
