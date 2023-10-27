@@ -1,0 +1,218 @@
+body, html {
+	font-family: "Gill Sans", sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.slika {
+	background-image: url("Slike/WP_Gloom-2560x1440_00000.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1d1212;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #1d1212;
+}
+
+main {
+    padding: 25px;
+}
+
+figure {
+    display: block;
+    width: fit-content;
+    float: left;
+}
+
+figure img {
+    max-width: 400px;
+}
+
+.clanak {
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: #000;
+    text-align: left;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.github {
+    width: 20px;
+    height: auto;
+}
+
+.objava {
+	border-bottom: 1px solid gray;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+}
+
+.objava a {
+	text-decoration: none;
+}
+
+.objava div {
+	display: inline-block;
+}
+
+.objava img {
+	height: 200px;
+	width: 355px;
+	object-fit: cover;
+	padding-right: 20px;
+}
+
+/* CSS za svaku od vijesti */
+.galerija {
+    border-bottom: 1px solid gray;
+    padding: 30px 0;
+}
+
+.galerija figure {
+    display: inline-block;
+    max-width: 300px;
+    float: none;
+    padding: 0 20px;
+}
+
+.galerija figure img {
+    width: inherit;
+    object-fit: cover;
+}
+
+iframe {
+    padding: 10px;
+}
+
+label {
+    display: block;
+}
+
+select{
+    display:block;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: none;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display:block;
+  }
+  
+  /* Kada se prolazi mišem kroz "posalji" potamni boja */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Galerija slika */
+
+  .galerija-slika {
+    border: 1px solid gray;
+    padding: 0 !important;
+    max-width: fit-content !important;
+  }
+
+  .galerija-slika img {
+    width: 500px;
+    height: 282px;
+    object-fit: contain;
+  }
+
+  /* O nama */
+
+  video {
+    float: left;
+    padding-right: 20px;
+  }
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 50%;
+		float: none;
+	}
+    .clanak {
+        border: none;
+    }
+    figure img {
+        width: inherit;
+    }
+	.objava {
+		display: block;
+		align-items: normal;
+	}
+    footer {
+        text-align: center;
+    }
+    /* CSS za svaku od vijesti */
+    .galerija figure {
+        display: block;
+        max-width: 100%;
+        width: inherit;
+        padding: 0;
+    }
+    .galerija figure img {
+        width: 100%;
+    }
+    .galerija figure figcaption {
+        text-align: center;
+    }
+    /* Galerija slika */
+    .galerija-slika {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* O nama */
+    video {
+        padding: unset;
+        float: unset;
+        width: 100%;
+        height: 100%;
+    }
+    /** google maps se prilagodi mobu **/
+    iframe {
+        width:inherit;
+    }
+    input[type=text], input[type=email], select, textarea {
+        width: 100%;
+    }
+}
