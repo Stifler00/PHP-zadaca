@@ -1,0 +1,53 @@
+/* objava.css */
+
+/* Container for the news article */
+.sadrzaj-objave {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the news article image */
+.sadrzaj-objave img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Styling for the news article title */
+.sadrzaj-objave h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for the news article date */
+.sadrzaj-objave time {
+    font-style: italic;
+    color: #666;
+}
+
+/* Styling for the news article content */
+.sadrzaj-objave p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Styling for the back link */
+.sadrzaj-objave a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sadrzaj-objave a:hover {
+    background-color: #0056b3;
+}

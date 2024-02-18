@@ -1,0 +1,26 @@
+
+<h1>Kontakt forma</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7974758348105!2d15.966938676836746!3d45.795284971081415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b441ce2df%3A0x54e2a03adf42446f!2sZagreb%20University%20of%20Applied%20Sciences!5e0!3m2!1sen!2shr!4v1696800901021!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1>Kontakt</h1>
+    <form>
+        <label for="firstname" ><b>Ime *</b></label>
+        <input type="text" name="firstname" id="firstname" placeholder="Vaše ime" required>
+        
+        <label for="lastname"><b>Prezime *</b></label>
+        <input type="text" name="lastname" id="lastname" placeholder="Vaše prezime" required>
+        
+        <label for="email"><b>E-mail *</b></label>
+        <input type="email" name="email" id="email" placeholder="Vaš E-mail" required>
+
+        <label for="country"><b>Država:</b></label>
+        <select name="country" id="country" form="country">
+            <option value="HR">Hrvatska</option>
+            <option value="SRB">Srbija</option>
+            <option value="SI">Slovenija</option>
+            <option value="BIH">Bosna i Hercegovina</option>
+        </select>
+
+        <label for="subject"><b>Poruka</b></label>
+            <textarea id="subject" name="subject" rows="4" cols="7" placeholder="Vaša poruka..."></textarea>
+            <input type="submit" value="Pošalji">
+    </form>  
